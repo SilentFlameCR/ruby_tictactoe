@@ -19,7 +19,7 @@ class Board
             
         else
             puts "Invalid move"
-            
+            @counter -= 1
         end
     end
     
